@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-family: Montserrat-regular;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    margin-left: -16vw;
+    font-family: Montserrat-regular;
+}
+input{
+    width: 20vw;
+    height: 1.5vw;
+    border-radius: 20px;
+    border-color: blue;
+}
+button{
+    width: 10vw;
+    height: 1.5vw;
+    border-color: blue;
+    background-color: white;
+    border-radius: 20px;
+}
+#div-exibirCadastros{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 20vw;
+    height: 5px;
+    border-radius: 20px;
+    background-color: blue;
+}
+h2{
+    font-family: Montserrat-regular;
+}
