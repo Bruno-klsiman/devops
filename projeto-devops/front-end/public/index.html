@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Usuários</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário de Usuários</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Adicionar Usuário</h2>
+            <form id="userForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <button type="submit">Adicionar Usuário</button>
+            </form>
+        </section>
+        
+        <section>
+            <h2>Usuários Registrados</h2>
+            <button id="showUsersButton">Exibir Cadastros</button>
+            <ul id="usuariosList"></ul>
+        </section>
+    </main>
+    
+    <div id="root"></div> <!-- Certifique-se de que este elemento está presente -->
+    
+    <footer>
+        <p>&copy; 2024 Formulário de Usuários</p>
+    </footer>
+    
+    <script src="src/script.js"></script> <!-- Certifique-se de que o caminho está correto -->
+</body>
+</html>
